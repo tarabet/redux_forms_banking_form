@@ -1,22 +1,30 @@
-<p align="center"><a href="https://medium.com/@notrab/getting-started-with-create-react-app-redux-react-router-redux-thunk-d6a19259f71f"><img src="https://i.imgur.com/PATsTx2.png" title="View tutorial" alt="React, React Router, Redux and Redux Thunk" width="900"></a></p>
-
-[![Dependency Status](https://dependencyci.com/github/notrab/create-react-app-redux/badge)](https://dependencyci.com/github/notrab/create-react-app-redux)
-
-* Tutorial: [Getting started with create-react-app, Redux, React Router & Redux Thunk](https://medium.com/@notrab/getting-started-with-create-react-app-redux-react-router-redux-thunk-d6a19259f71f)
-* Example: [View on Heroku](https://cra-redux-router-thunk.herokuapp.com/) 🙌
-
 ## Installation
 
 ```bash
-git clone https://github.com/notrab/create-react-app-redux.git
-cd create-react-app-redux
-yarn
+git clone https://github.com/tarabet/redux_forms_banking_form.git
+cd redux_forms_banking_form
+npm i
 ```
 
-## Get started
+## Start the app
 
 ```bash
-yarn start
+npm start (browser will be opened http://localhost:3000/)
+
+Edit ./src/config/config.js to set asyncValidation server address and endpoint
+```
+
+## Build production version
+
+```bash
+npm build (check ./dist folder for production build)
+```
+
+## Run local server to emulate async IBAN validation
+
+```bash
+Server description can be taken from the assignment page: https://github.com/smava/Taranenko-Alexander-/blob/master/README_1.1.md
+Don't forget to disable CORS in browser!
 ```
 
 This boilerplate is built using [create-react-app](https://github.com/facebookincubator/create-react-app) so you will want to read the User Guide for more goodies.

@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
 import { routerReducer } from 'react-router-redux';
-import counter from './counter';
+import { reducer as formReducer } from 'redux-form';
+import Modal from './modal';
 
 export default combineReducers({
   router: routerReducer,
-  counter
+  form: formReducer,
+  modal: Modal
 });
